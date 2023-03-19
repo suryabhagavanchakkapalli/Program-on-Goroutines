@@ -1,5 +1,9 @@
 # Train Ticket Booking System
 
+This code is written for the blog i have we=ritten in medium. here is the link for the blog.
+[Blog Link](https://medium.com/@suryabhagavanchakkapalli/simulating-train-ticket-booking-with-goroutines-in-go-6897c9d5dd72)
+
+
 This is a train ticket booking system between Visakhapatnam and Secunderabad, which allows customers to book train tickets through booking agents. The system creates ticketRequest objects with passenger information and train details, which are sent to the booking agent goroutines via a channel. Each booking agent has a limit of booking ten tickets at a time. If the agent receives more than ten requests, the remaining requests are stored in a waiting list.
 
 ## Technologies Used
